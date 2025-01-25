@@ -1,3 +1,5 @@
+
+
 .open-sans-font {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -10,7 +12,12 @@
 .dark2 {
     color: #474747;
 }
-.btn-primary{
+
+.dark1 {
+    color: #181818;
+}
+
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -18,6 +25,14 @@
     padding: 18px 35px 19px 36px;
     border: none;
     border-radius: 5px;
+}
+
+/* header style */
+.header {
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
 }
 
 /* navbar style */
@@ -36,13 +51,13 @@ nav {
 .nav_title {
     font-size: 45px;
     font-weight: 800;
-    border: 1px solid red;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
+
 nav ul li {
     list-style: none;
     /* font-size: 20px; */
@@ -51,4 +66,42 @@ nav ul li {
 
 nav ul a {
     text-decoration: none;
+}
+
+/* banner-style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 37px 0 227px;
+}
+
+.banner_content {
+    max-width: 585px;
+}
+
+.banner_content button {
+    margin-right: 30px;
+}
+
+.banner_title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner_subtitle {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner_desc {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.img_src {
+    width: 584px;
 }
