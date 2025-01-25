@@ -56,8 +56,8 @@ main {
 }
 
 main section{
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 /* header style */
@@ -186,4 +186,64 @@ nav ul a {
 .card_desc {
     color: #757575;
     font-size: 16px;
+}
+
+/* resume style */
+.resume_container{
+    display: flex;
+    gap: 71px;
+}
+.resume_column{
+    margin-top: 113px;
+}
+.xp{
+width: 511px;
+}
+.col_title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.xp_titile{
+    font-size: 25px;
+    font-weight: 600;
+    color: #474747;
+}
+.xp_sub_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+}
+.xp_desc{
+    font-size: 16px;
+    color: #757575;
+}
+hr{
+    margin-top: 50px;
+    color: #757575;
+}
+.btn_edit{
+    margin-top: 50px;
+}
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.foot_col{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+footer input[type=text],footer input[type=email],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 30px;
 }
