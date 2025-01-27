@@ -7,6 +7,9 @@
 }
 
 /* shared stylee */
+.hide{
+    display: none;
+}
 .align {
     text-align: center;
 }
@@ -31,6 +34,7 @@
     padding: 18px 35px 19px 36px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .secondary_bg {
@@ -65,6 +69,7 @@ main section{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    border-radius: 20px;
 
 }
 
@@ -246,4 +251,36 @@ footer input[type=text],footer input[type=email],footer textarea{
     border-radius: 5px;
     border: none;
     padding: 0 30px;
+}
+
+
+/* for smalll device style */
+@media screen and (max-width: 576px) {
+    .skill_card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* resume responsive */
+    .resume_container{
+        flex-direction: column;
+    }
+
+    /* footer responsive */
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .foot_col{
+        width: 100%;
+    }
+
+    /* about resposive */
+    .about{
+        padding: 130px 0px;
+    }
+    .about_items{
+        flex-direction: column;
+    }
 }
