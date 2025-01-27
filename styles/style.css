@@ -266,6 +266,9 @@ footer input[type=text],footer input[type=email],footer textarea{
     .resume_container{
         flex-direction: column;
     }
+    .xp{
+        width: 100%;
+    }
 
     /* footer responsive */
     footer{
@@ -282,5 +285,21 @@ footer input[type=text],footer input[type=email],footer textarea{
     }
     .about_items{
         flex-direction: column;
+    }
+
+    /* banner responsive */
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    nav{
+        margin:0px;
+    }
+    .btn-primary {
+        font-size: 15px;
+        padding: 10px;
     }
 }
